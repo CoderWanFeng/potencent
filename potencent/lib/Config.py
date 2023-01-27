@@ -7,7 +7,7 @@
 @Description     ：
 '''
 import toml
-from potencent.lib.CONST import DEFAULT_CONFIG_PATH_NAME
+from potencent.lib.CONST import DEFAULT_CONFIG_PATH_NAME, DEFAULT_CONFIG_NAME, TUTORIA_VIDEO
 
 
 class potencentConfig():
@@ -25,7 +25,7 @@ class potencentConfig():
                 self.config_info = toml.load(DEFAULT_CONFIG_PATH_NAME)
             else:
                 self.config_info = toml.load(configPath)
-            print('配置文件【potencent-config.toml】读取成功')
+            print(f'配置文件【{DEFAULT_CONFIG_NAME}】读取成功')
             return self.config_info
         except:
-            print('配置文件【potencent-config.toml】读取失败，请查看视频，进行配置：https://www.bilibili.com/video/BV1Zv4y1r7zq')
+            print(f'配置文件【{DEFAULT_CONFIG_NAME}】读取失败，请查看视频，进行配置：{TUTORIA_VIDEO}')
