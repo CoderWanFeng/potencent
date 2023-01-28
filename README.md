@@ -16,12 +16,6 @@
 
 
 <p align="center" name="'github">
-    <a target="_blank" href='https://github.com/CoderWanFeng/potencent'>
-    <img src="https://img.shields.io/github/stars/CoderWanFeng/potencent.svg?style=social" alt="github star"/>
-    </a>
-    	<a target="_blank" href='https://gitee.com/CoderWanFeng/potencent'>
-		<img src='https://gitee.com/CoderWanFeng//potencent/badge/star.svg?theme=dark' alt='gitee star'/>
-	</a>
   	<a href="https://mp.weixin.qq.com/s/Jf_EVdKlVnHhK68fW5OA6A">
 	<img src="https://img.shields.io/badge/QQ-1090738447-orange"/>
   </a>
