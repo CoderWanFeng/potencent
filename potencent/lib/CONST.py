@@ -12,7 +12,6 @@ CG还原角色：
 AI还原声音：
 """
 
-
 # 默认配置文件的位置
 DEFAULT_CONFIG_PATH = r'./'
 DEFAULT_CONFIG_NAME = 'potencent-config.toml'
@@ -24,4 +23,5 @@ NO_FILE_ERROR = '没有提供任何图片，请检查'
 
 # 文字识别的参考文档
 OCR_API_REF_DOC = 'https://cloud.tencent.com/document/product/866/33515'
-
+# 默认的分行标志
+SPLIT_LINE = '=' * 30
