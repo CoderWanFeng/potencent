@@ -1,4 +1,12 @@
-from potencent.lib.CONST import NO_FILE_ERROR
+# -*- coding: UTF-8 -*-
+'''
+@Author  ：程序员晚枫，B站/抖音/微博/小红书/公众号
+@WeChat     ：CoderWanFeng
+@Blog      ：www.python-office.com
+@Date    ：2023/1/22 18:45
+@Description     ：文字识别功能，可以单独调用
+'''
+from potencent.lib.Const import NO_FILE_ERROR
 from potencent.lib.Config import potencentConfig
 
 from tencentcloud.common import credential

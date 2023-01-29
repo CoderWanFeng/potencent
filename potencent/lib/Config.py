@@ -4,10 +4,10 @@
 @WeChat     ：CoderWanFeng
 @Blog      ：www.python-office.com
 @Date    ：2023/1/22 18:45 
-@Description     ：
+@Description     ：加载配置信息，core中类的父类
 '''
 import toml
-from potencent.lib.CONST import DEFAULT_CONFIG_PATH_NAME, DEFAULT_CONFIG_NAME, TUTORIA_VIDEO
+from potencent.lib.Const import DEFAULT_CONFIG_PATH_NAME, DEFAULT_CONFIG_NAME, TUTORIA_VIDEO
 
 
 class potencentConfig():

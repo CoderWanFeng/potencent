@@ -1,5 +1,5 @@
 from potencent.api import ocr
-from potencent.lib.CONST import SPLIT_LINE
+from potencent.lib.Const import SPLIT_LINE
 
 print(SPLIT_LINE)
 print('【potencent库】，功能持续更新中')

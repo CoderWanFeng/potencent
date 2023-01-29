@@ -4,8 +4,10 @@
 @WeChat     ：CoderWanFeng
 @Blog      ：www.python-office.com
 @Date    ：2023/1/22 18:26 
-@Description     ：
+@Description     ： 常数项
 '''
+
+
 """
 增值税发票核验：https://cloud.tencent.com/document/product/1253/47678
 CG还原角色：

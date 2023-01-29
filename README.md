@@ -50,6 +50,8 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple potencent -U
 
 [📘官网：https://www.python-office.com/](https://www.python-office.com/)
 
+![](https://article-1300615378.cos.ap-nanjing.myqcloud.com/potencent%2Fapi-doc%2Fshare.jpg)
+
 ## 通用文字识别相关接口
 
 | 接口名称                                                     | 接口功能                   | 
