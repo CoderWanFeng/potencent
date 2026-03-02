@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 '''
 @Author  ：程序员晚枫，B站/抖音/微博/小红书/公众号
-@WeChat     ：CoderWanFeng
+@WeChat     ：python-office
 @Blog      ：www.python-office.com
 @Date    ：2023/1/22 18:45
 @Description     ：通用的一些方法
@@ -15,7 +15,7 @@ def get_error_info(error_info):
     :param error_info: 调用接口的返回数据
     :return:
     """
-    error_url = 'http://python4office.cn/pobaidu/pobaidu-error/'
+    error_url = 'https://www.python4office.cn/pobaidu/pobaidu-error/'
     if error_info.get('error_code', False):
         return f"接口调用错误，错误信息是{error_info}，原因和解决方法请查看官方文档：{error_url}"
     return False
